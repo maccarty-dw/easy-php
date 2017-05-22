@@ -202,7 +202,7 @@ password = easyphp
 
 All output is json in the framework, neithor framework's core error or business logic's output, beacuse I think is friendly.
 
-# Request param check, Support require/length/number check at present. Use as follows:
+##### Request param check, Support require/length/number check at present. Use as follows:
 ```
 $request = App::$container->getSingle('request');
 $request->check('username', 'require');
